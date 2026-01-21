@@ -234,6 +234,7 @@
               "deepseek-r1",
               "deepseek-r1-0528",
               "glm-4.6",
+              "glm-4.6v",
               "glm-4.7",
               "qwen3-coder-480b-a35b-instruct",
               "qwen3-235b-a22b-instruct-2507",
@@ -377,8 +378,8 @@
           "model": {
             "type": "string",
             "description": "Corresponding Model Name. To better enhance service quality, we will make periodic changes to the models provided by this service, including but not limited to model on/offlining and adjustments to model service capabilities. We will notify you of such changes through appropriate means such as announcements or message pushes where feasible.",
-            "example": "Qwen2.5-VL-32B-Instruct",
-            "default": "Qwen2.5-VL-32B-Instruct",
+            "example": "glm-4.6v",
+            "default": "glm-4.6v",
             "enum": [
               "minimax-m2.1",
               "deepseek-v3-0324",
@@ -388,6 +389,7 @@
               "deepseek-r1",
               "deepseek-r1-0528",
               "glm-4.6",
+              "glm-4.6v",
               "glm-4.7",
               "qwen3-coder-480b-a35b-instruct",
               "qwen3-235b-a22b-instruct-2507",
@@ -566,8 +568,8 @@
           "model": {
             "type": "string",
             "description": "The name of the model to query [See all of Aerspan's chat models](https://app.aerspan.com/models)\n",
-            "example": "deepseek-ai/DeepSeek-R1",
-            "default": "deepseek-ai/DeepSeek-R1",
+            "example": "minimax-m2.1",
+            "default": "minimax-m2.1",
             "enum": [
               "minimax-m2.1",
               "deepseek-v3-0324",
@@ -577,6 +579,7 @@
               "deepseek-r1",
               "deepseek-r1-0528",
               "glm-4.6",
+              "glm-4.6v",
               "glm-4.7",
               "qwen3-coder-480b-a35b-instruct",
               "qwen3-235b-a22b-instruct-2507",
