@@ -11,15 +11,15 @@
   "navigation": {
     "tabs": [
       {
+        "tab": "API Reference",
+        "openapi": "api-reference/openapi.json"
+      },
+      {
         "tab": "Terms and Conditions",
         "pages": [
           "terms-and-conditions/terms-of-service",
           "terms-and-conditions/privacy-policy"
         ]
-      },
-      {
-        "tab": "API Reference",
-        "openapi": "api-reference/openapi.json"
       }
     ]
   },
